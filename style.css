@@ -1,0 +1,88 @@
+html {
+    height: 110%;
+}
+/*Login Body*/
+body {
+    height: 100%;
+    margin: 10px;
+    font-family: 'Arial Black', Times, serif;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    background-image: url("background.jpg");
+    background-position: center;
+    background-repeat: repeat;
+    background-size: auto;
+}
+
+/*Login Box*/
+#login-main {
+    width: 20%;
+    height: 35%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    background-color: gray;
+    border-radius: 50px;
+}
+
+/*Error message box*/
+#error-msg-box {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+/*Error message*/
+#error-msg {
+    width: 30%;
+    text-align: center;
+    margin: 0;
+    padding: 5px;
+    font-size: 10px;
+    font-weight: bold;
+    color:black;
+    border: 1px solid black;
+    background-color: white;
+    opacity: 0;
+}
+  
+#error-msg-continued {
+    display: block;
+}
+  
+#login-form {
+    align-self: center;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+/*Password*/ 
+.login-form-field::placeholder {
+    color:grey;
+}
+  
+.login-form-field {
+    border: none;
+    border-bottom: 1px solid grey;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    outline: none;
+    padding: 0px 0px 3px 3px;
+}
+
+/*Submit Button*/
+#submit-btn {
+    width: 100%;
+    padding: 7px;
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    background-color: black;
+    cursor: pointer;
+    outline: none;
+}

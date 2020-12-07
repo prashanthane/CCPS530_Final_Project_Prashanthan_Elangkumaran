@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CCPS530 - LOGIN</title>
+  <link rel="stylesheet" href="style.css"> <!--Style CSS holds style properties-->
+  <script defer src="login.js"></script> <!-- Script that evaluates login info-->
+</head>
+
+<body>
+  <main id="login-main">
+    <h1 id="login-header">Log In Here</h1>
+    
+    <form id="login-form">
+      <input type="submit" value="GO!" id="submit-btn">
+      <input type="text" name="userID" id="userID-field" class="login-form-field" placeholder="User-ID">
+      <input type="password" name="password" id="password-field" class="login-form-field" placeholder="Password">
+    </form>
+  
+        
+    <div id="error-msg-box"> <!--design-->
+      <p id="error-msg">ERROR! <span id="error-msg-continued">Please check credentials.</span></p> <!--lines to display-->
+    </div>
+  </main>
+</body>
+
+</html>

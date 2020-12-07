@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CCPS530 - MAIN PAGE</title>
+</head>
+<style>
+  body
+  {
+    background-image: url("background.jpg");
+  }
+
+    p {
+        color: white
+      }
+</style>
+<body>
+  
+  <h1 style="font-size:x-large;text-align:center; color: white">QUOTE OF THE WEEK - HIP-HOP EDITION</h1>
+  <p style="font-size: x-small;text-align:center;font-style: italic;">Prashanthan Elangkumaran | 500683214 | CCPS530</p>
+<center>
+<b><p>Input a week (1-52) and a quote will appear:
+<br> Enter 0 to clear.</center>
+</p></b>
+
+<center><input id="week_input" name="week_input" value="0" size="3" /></center>
+
+<center><button onclick="myFunction()">GO!</button></center>
+
+<b><center><p id="demo"></p></center></b>
+
+<script>
+function myFunction() {
+  var week_input, quote;
+  week_input = document.getElementById('week_input').value;
+  if (week_input == 0) {
+  quote = "";
+} else if (week_input == 1) {
+  quote = "Never trippin' off the past, I would rather never mind 'em/‘Cause only fools trip over somethin' that be behind 'em - Fabolous";
+} else if (week_input == 2){
+  quote = "Act your age not your shoe size - Lil Wayne";
+} else if (week_input == 3) {
+  quote = "We ain't meant to survive 'cause it's a set-up/And even though you're fed up, huh, you got to keep ya head up - Tupac";
+} else if (week_input == 4){
+  quote = "Next time you see a brother down/Stop and pick him up/Cause you might be the next one stuck – Grand Puba";
+} else if (week_input == 5) {
+  quote = "Never forget where you from; someone will remind you - DMX";
+} else if (week_input == 6){
+  quote = "Life without dreaming is a life without meaning - Wale";
+} else if (week_input == 7) {
+  quote = "People will love you and support you when it’s beneficial - Nicki Minaj";
+} else if (week_input == 8){
+  quote = "Cherish these nights, cherish these people/Life is a movie, but there’ll never be a sequel - Nicki Minaj";
+} else if (week_input == 9){
+  quote = "No law’s gonna change us, we have to change us - Macklemore";
+} else if (week_input == 10) {
+  quote = "Some seek fame cause they need validation/Some say hating is confused admiration - Nas";
+} else if (week_input == 11){
+  quote = "If money ain't change you then you ain't getting enough - A$AP Rocky";
+} else if (week_input == 12) {
+  quote = "Reach for the stars so if you fall you land on a cloud - Kanye West";
+} else if (week_input == 13){
+  quote = "Stop lookin’ at what you ain’t got and start being thankful for what you do got - T.I.";
+} else if (week_input == 14) {
+  quote = "We ain’t picture perfect but we worth the picture still - J. Cole";
+} else if (week_input == 15){
+  quote = "If God got us, then we gon’ be alright - Kendrick Lamar";
+} else if (week_input == 16){
+  quote = "Every day women and men become legends - Common";
+} else if (week_input == 17) {
+  quote = "Being happy is the goal but greatness is my mission - Childish Gambino";
+} else if (week_input == 18){
+  quote = "Keep integrity at every cost - Nas";
+} else if (week_input == 19) {
+  quote = "Even the genius asks his questions - Tupac";
+} else if (week_input == 20){
+  quote = "I took my bruises and my humps/Fell down and got right back up - Eminem";
+} else if (week_input == 21) {
+  quote = "Nobody built like you, you design yourself - JAY Z";
+} else if (week_input == 22){
+  quote = "Don't ever chance, keep your essence/The power is in the people and the politics we address - Tupac";
+} else if (week_input == 23){
+  quote = "Everybody dies but not everybody lives - Drake";
+} else if (week_input == 24) {
+  quote = "My word of advice to you is just relax/Just do what you got to do - Dead Prez";
+} else if (week_input == 25){
+  quote = "Everything is everything, what is meant to be, will be - Lauryn Hill";
+} else if (week_input == 26) {
+  quote = "Never looking back or too far in front of me/The present is a gift, and I just wanna be - Common";
+} else if (week_input == 27){
+  quote = "I'm not a businessman, I’m a business, man - JAY Z";
+} else if (week_input == 28) {
+  quote = "If I woke up tomorrow and didn’t have a dollar/As long as I have my heart, I can get it all over - Wale";
+} else if (week_input == 29){
+  quote = "Are you willing to give up what you love for who you love? - Big Sean";
+} else if (week_input == 30){
+  quote = "Make a business for yourself, boy, set some goals/Make a fat diamond out of dusty coals - Big Boi";
+} else if (week_input == 31) {
+  quote = "Don't need time because don't wait for nobody - HotBoii";
+} else if (week_input == 32){
+  quote = "How can the sky be the limit when there’s footprints on the moon? - Logic";
+} else if (week_input == 33) {
+  quote = "Damn right I like the life I live because I went from negative to positive - The Notorious B.I.G.";
+} else if (week_input == 34){
+  quote = "Get rich or die tryin' - 50 Cent";
+} else if (week_input == 35) {
+  quote = "Jealousy is just love and hate at the same time - Drake";
+} else if (week_input == 36){
+  quote = "Only God can judge me, so I’m gone/Either love me or leave me alone - JAY Z";
+} else if (week_input == 37){
+  quote = "You have to keep your vision clear/Cause only a coward lives in fear - Nas";
+} else if (week_input == 38) {
+  quote = "If you admire someone, you should go ahead and tell them/People never get the flowers while they can still smell them - Kanye West";
+} else if (week_input == 39){
+  quote = "You can have what you want, be what you want - 112";
+} else if (week_input == 40) {
+  quote = "To appreciate the sun, you gotta know what rain is - J. Cole";
+} else if (week_input == 41){
+  quote = "But to live doesn’t mean you’re alive - Nicki Minaj";
+} else if (week_input == 42) {
+  quote = "Can’t forget that I’m golden, can’t forget where I’m going - A$AP Rocky";
+} else if (week_input == 43){
+  quote = "Joy wouldn't feel so good if it wasn't for pain - 50 Cent";
+} else if (week_input == 44){
+  quote = "It’s beauty in the struggle, ugliness in the success - J. Cole";
+} else if (week_input == 45) {
+  quote = "Live for today, plan for tomorrow, party tonight - Drake";
+} else if (week_input == 46){
+  quote = "Life without knowledge is death in disguise - Talib Kweli"
+} else if (week_input == 47) {
+  quote = "I never sleep, cause sleep is the cousin of death - Nas";
+} else if (week_input == 48){
+  quote = "Fear not of men because men must die. Mind over matter and soul before flesh - Mos Def";
+} else if (week_input == 49) {
+  quote = "Nothing in life is promised except death - Kanye West";
+} else if (week_input == 50){
+  quote = "And if you come from under that water then there's fresh air/Just breathe baby God's got a blessing to spare - Lil Wayne";
+} else if (week_input == 51){
+  quote = "Nevermind what haters say/Ignore them ’til they fade away - T.I.";
+} else if (week_input == 52) {
+  quote = "If the truth is told, the youth can grow/Then learn to survive until they gain control - Nas";
+} else {
+quote = "Please input a valid week."
+}
+  document.getElementById("demo").innerHTML = quote;
+}
+</script>
+
+</body>
+</html>
